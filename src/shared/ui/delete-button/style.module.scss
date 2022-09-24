@@ -1,0 +1,26 @@
+.btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+  &:hover {
+    background: #ececec;
+  }
+
+  &:disabled {
+    cursor: default;
+  }
+
+  & svg {
+    width: 20px;
+    height: 20px;
+    fill: #fd4e4e;
+  }
+}

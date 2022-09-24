@@ -1,0 +1,28 @@
+.button {
+  padding: 10px 15px;
+  background: #0097ff;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &.circle {
+    border-radius: 50%;
+  }
+
+  &.icon {
+    border-radius: 50%;
+    background: transparent;
+    transition: .3s;
+    padding: 7px 7px 5px 9px;
+
+    &:hover {
+      background: rgba(148, 148, 148, 0.46);
+    }
+  }
+  
+  &:disabled {
+    cursor: default;
+    background: #b0b0b0;
+  }
+}

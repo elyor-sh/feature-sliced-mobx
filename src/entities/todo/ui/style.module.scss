@@ -1,0 +1,19 @@
+.completed {
+  position: relative;
+  opacity: 0.5;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    width: calc(100% + 20px);
+    transform: translateY(-50%);
+    height: 0.5px;
+    background: #333;
+  }
+}
+
+.title {
+  margin-left: 10px;
+}
+
