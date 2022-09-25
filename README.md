@@ -2,7 +2,7 @@
 
 <h2>Tech stack: React, Typescript, Mobx, Tsyringe</h2>
 
-<h2><a href="feature-sliced-mobx-17x8.vercel.app">DEMO</a></h2>
+<h2><a href="https://feature-sliced-mobx-17x8.vercel.app">DEMO</a></h2>
 
 <p>Proyektdagi qatlamlar (en: layer, ru: слой) ketma-ketligi (yuqoridan pastga)</p>
 
