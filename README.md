@@ -1,4 +1,4 @@
-<h1>React design </h1>
+<h1>Feature sliced design example with mobx</h1>
 
 <h2>Tech stack: React, Typescript, Mobx, Tsyringe</h2>
 
